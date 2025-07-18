@@ -3,9 +3,9 @@ on:
  workflow_dispatch:
 
 Jobs:
- build:
- name: Start Building...
- runs-on: windows-latest
+  build:
+  name: Start Building...
+  runs-on: windows-latest
 
 steps:
 
