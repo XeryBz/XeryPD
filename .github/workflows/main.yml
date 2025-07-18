@@ -2,10 +2,10 @@ name: Windows - Lilemanager
 on: 
  workflow_dispatch:
 
-Jobs:
-  build:
-  name: Start Building...
-  runs-on: windows-latest
+jobs:
+ build:
+ name: Start Building...
+ runs-on: windows-latest
 
 steps:
 
