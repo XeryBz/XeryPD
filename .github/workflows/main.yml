@@ -15,6 +15,7 @@ run: |
  cmd /c Downloads.bat
  
  - name: Connect to LiteManager
-run: cmd /c show.bat
-name: Time Counter
-run: cmd /c loop.bat
+    run: cmd /c show.bat
+ 
+ - name: Time Counter
+    run: cmd /c loop.bat
